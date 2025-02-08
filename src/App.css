@@ -1,0 +1,703 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  
+ 
+}
+.Entry_Container{
+  margin-top: -80px;
+  padding: 0;
+  background: rgb(92,16,26);
+background: linear-gradient(179deg, rgba(92,16,26,1) 0%, rgba(101,37,45,1) 100%) ;
+}
+.bac_video video{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background: rgb(92,16,26);
+  background: linear-gradient(179deg, rgba(92,16,26,1) 0%, rgba(101,37,45,1) 100%)  ;
+}
+
+.Entry_Container{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading p{
+  font-size: 22px;
+  padding-left: 100px;
+  color:lightgrey;
+}
+.heading h2{
+margin-top: 12px;
+font-size: 50px;
+padding-right: 10px;
+color: white;
+}
+.Border-Img img{
+  height: 200px;
+  position: relative;
+}
+.img img{
+  height: 220px;
+  padding-left: 40px;
+  position: relative;
+  bottom: 150px;
+}
+.Couples_Image img{
+  margin-top: 20px;
+  height: 550px;
+  width: 400px;
+  border-radius: 150px;
+
+}
+.buttons {
+  margin-top: -150px;
+}
+.buttons a{
+  color: white;
+}
+.Bride a{
+  border: 2px solid white;
+  padding: 10px 55px;
+}
+.Bride a:hover{
+  background-color: white;
+  color: black;
+}
+.Groom a{
+  margin-top: -60px;
+  border: 2px solid white;
+  padding: 10px 50px;
+}
+.Groom a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+/* Invitation Section */
+.Invite-Container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(92,16,26);
+  background: linear-gradient(179deg, rgba(92,16,26,1) 0%, rgba(101,37,45,1) 100%);
+
+
+}
+.Invite-Card{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  color: white;
+  padding-left: 300px;
+  padding-right: 300px;
+  box-shadow: 2px 10px 10px 6px rgb(51, 1, 8); ;
+  height: 100%;
+  width: 10%;
+  margin-top: 0px;
+  background: url('./images/Golden-arch2.png' ),linear-gradient(179deg, rgba(92,16,26,1) 0%, rgba(101,37,45,1) 100%); ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h2{
+  font-size: 25px;
+  margin-top: 120px;
+  width: 250px;
+  padding-left: 20px;
+
+}
+.Couples_Image{
+  background-color: antiquewhite;
+  height: 200px;
+  width: 200px;
+}
+.Couples_image img{
+  margin-top: 30px;
+  height: 300px;
+  width: 220px;
+  border-radius: 00px;
+}
+.Couple_name {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 30px;
+  width: 400px;
+  padding-left: 45px;
+}
+.Couple_name .mid{
+  color: rgb(242, 143, 143)
+}
+.flower img{
+  margin-top: -10px;
+  height: 80px;
+}
+
+/*Divide*/
+ .divide {
+  border: 2px solid wheat;
+  padding: 8px 30px;
+  margin-top: 10px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+  color: black;
+
+}
+/*desgin Flower */
+.desgin img{
+  margin-top: 20px;
+  height: 160px;
+  width: 100%;
+  padding-right:400px;
+}
+ 
+/* Bride */ 
+ .Bride-Container{
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Bride-Container img{
+  height: 200px;
+  width: 200px;
+
+}
+.Bride-Image{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  margin-top: 20px;
+  background-color: rgb(226, 187, 114);
+  padding: 0px 20px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 2px 8px 8px 10px rgb(51, 1, 8);; 
+}
+.Bride-Image img{
+  height: 300px;
+  width: 230px;
+  margin-top: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
+
+.Bride-Text{
+  width: 100%;
+  max-width: 85%;
+  margin-top: 0px;
+  color: black;
+  background-color: wheat;
+  border-top-right-radius: 30px ;
+  border-bottom-left-radius: 30px;
+  box-shadow: 2px 8px 8px 10px rgb(51, 1, 8);;
+
+}
+.Bride-Content{
+padding-right: 100px;
+padding: 20px;
+} 
+
+.desgin-1 img{
+  margin-top: 10px;
+  height: 160px;
+  width: 100%;
+  padding-right:400px;
+}
+
+/* Groom */
+.Groom-Container{
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Groom-Image{
+  height: 100%;
+  width: 100%;
+  max-width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-top: 20px;
+  background-color: rgb(226, 187, 114);
+  padding: 0px 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 2px 8px 8px 10px rgb(51, 1, 8);; 
+}
+.Groom-Image img{
+  height: 300px;
+  width: 230px;
+  margin-top: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  
+}
+
+.Groom-Text{
+  width: 100%;
+  max-width: 85%;
+  margin-top: 0px;
+  color: black;
+  background-color: wheat;
+  border-top-left-radius: 30px ;
+  border-bottom-right-radius: 30px;
+  box-shadow: 2px 5px 5px 10px rgb(51, 1, 8);;
+
+}
+.Groom-Content{
+padding-right: 100px;
+padding: 20px;
+} 
+
+/* Date & Time */
+.Date_Time-Container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divide-line{
+  margin-top: -20px;
+  font-size: 60px;
+  color: wheat;
+}
+
+/* Videos */
+.videos-Container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video {
+  border-radius: 20px;
+}
+
+/* Gallery */
+.Gallery-Container{
+ margin-top: 20px;
+}
+.Gold-mandal img{
+  margin-top: -0px;
+  height: 150px;
+  padding-left: 400px;
+}
+.Gold-mandal-left img{
+  margin-top: -10px;
+  height: 130px;
+  padding-right: 400px;
+}
+.Gold-mandal-bottom-left img{
+  margin-top: -0px;
+  height: 180px;
+  padding-right: 400px;
+}
+.Gallery{
+  margin-top: -240px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+   -webkit-column-width:20% ;
+   -moz-column-width: 13%;
+  column-width: 13%;
+  padding: 0 12px;
+}
+.Gallery .pics{
+  -webkit-tarnsition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+  border: 2px solid wheat;
+}
+.pics img{
+height: 240px;
+width: 200px;
+}
+.flower-1 img{
+  margin-top: -200px;
+  height: 100px;
+  padding-left: 450px;
+}
+
+
+/* Maps */
+.Maps-Container{
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 4px 4px 8px rgb(45, 17, 17);
+}
+.Add-Location iframe{
+   border-radius: 5px;
+}
+.Button {
+  margin-top: 10px;
+  padding: 10px 50px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(130, 127, 127);
+}
+.Button a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: black;
+}
+
+
+/* Default styles (for large screens) are already in place */
+
+
+
+/* Tablets and Small Laptops (768px - 1024px) */
+@media (min-width:768px)and (max-width: 1024px) {
+  .Entry_Container {
+    padding: 50px;
+    margin-top: -50px;
+  }
+
+  .heading p {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+
+  .heading h2 {
+    font-size: 40px;
+  }
+
+  .Couples_Image img {
+    height: 400px;
+    width: 300px;
+  }
+
+  .buttons {
+    margin-top: -100px;
+  }
+
+  .Invite-Card {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+  }
+  .title h2{
+    font-size: 45px;
+    padding-left: 40px;
+  }
+  .Couples_image img{
+    margin-top: 40px;
+    height: 500px;
+    width: 400px;
+  }
+  .Couple_name  {
+    font-size: 45px;
+     text-align: center;
+  }
+  .divide {
+    margin-top: 25px;
+    height: 60px;
+    width: 900px;
+    font-size: 25px;
+  }
+  .Bride-Container ,
+  .Groom-Container{
+    width: 100%;
+    max-width: 75%;
+  }
+  .Bride-Image,
+  .Groom-Image {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .Bride-Text,
+  .Groom-Text{
+    width: 100%;
+    max-width: 85%;
+  }
+
+  .Bride-Content,
+  .Groom-Content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .Gallery {
+    margin-top: -450px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+  }
+  .Gold-mandal img{
+    margin-top: 10px;
+    height: 250px;
+    padding-left: 900px;
+  }
+  .Gold-mandal-left img{
+    margin-top: -20px;
+    height: 230px;
+    padding-right: 900px;
+  }
+  .pics img{
+    height: 300px;
+    width: 230px;
+  }
+
+
+  .Date_Time-Container{
+    font-size: 30px;
+  }
+
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (min-width:480px) and (max-width: 768px) {
+  .Entry_Container {
+    padding: 30px;
+    margin-top: -40px;
+  }
+
+  .heading p {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .heading h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Border-Img img,
+  .img img {
+    height: 150px;
+  }
+
+  .Couples_Image img {
+    height: 200px;
+    width: 450px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 30px;
+  }
+
+  .Invite-Card {
+    padding-left: 300px;
+    padding-right: 300px;
+    overflow: hidden;
+    width: 100%;
+  }
+ .title h2{
+  margin-top: 80px;
+  font-size: 50px;
+ }
+  .Couple_name {
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 90px;
+  }
+  .Couple_name p{
+    font-size: 50px;
+  }
+  .Couples_image img{
+    margin-top: 60px;
+    height: 500px;
+    width: 400px;
+  }
+  .divide {
+     margin-top: 20px;
+     height: 80px;
+     font-size: 25px;
+  }
+
+  .Bride-Image,
+  .Groom-Image {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 15px;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .Bride-Content,
+  .Groom-Content {
+    padding: 10px;
+    text-align: center;
+  }
+  .Bride-Container{
+    width: 900px;
+  }
+
+  .Gallery {
+    margin-top: -450px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+     -webkit-column-width:20% ;
+     -moz-column-width: 13%;
+    column-width: 13%;
+    padding: 0 12px;
+  }
+  .Gold-mandal img{
+    margin-top: 10px;
+    height: 250px;
+    padding-left: 800px;
+  }
+  .Gold-mandal-left img{
+    margin-top: -20px;
+    height: 230px;
+    padding-right: 800px;
+  }
+
+  .divide {
+    width: 90%;
+    padding: 5px 15px;
+  }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .Entry_Container {
+    padding: 20px;
+    margin-top: -30px;
+  }
+
+  .heading p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .heading h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .Border-Img img,
+  .img img {
+    height: 120px;
+  }
+
+  .Couples_Image img {
+    height: 250px;
+    width: 200px;
+  }
+  
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 8px 25px;
+  }
+
+  .Invite-Card {
+  padding: 20px;
+   width: 100%;
+   overflow: hidden;
+  }
+
+  .Couple_name {
+    font-size: 18px;
+    padding-left: 100px;
+  }
+
+  .Bride-Image,
+  .Groom-Image {
+    margin-top: -30px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 60%;
+  }
+  .Bride-Text ,
+  .Groom-Text{
+    width: 100%;
+    max-width: 60%;
+  }
+
+  .Bride-Content,
+  .Groom-Content {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Gallery {
+    column-count: 2;
+    padding: 0;
+  }
+  .pics img{
+    margin-top: -20px;
+    height: 200px;
+    width: 150px;
+
+  }
+
+  .divide {
+    width: 90%;
+    padding: 5px 10px;
+  }
+
+  .flower-1 img {
+    padding-left: 10px;
+  }
+  .Add-Location iframe{
+    height: 300px;
+    width: 300px;
+  }
+}
