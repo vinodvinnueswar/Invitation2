@@ -12,6 +12,7 @@ import Flower3 from '../images/flower3.png'
 import Maps from '../Components/Maps';
 import Gold_Mandal from '../images/Gold_Mandals/Gold_Mandal1.png'
 import Flower4 from '../images/flower/flower4.png'
+import Contacts from '../Components/Contacts';
 
 
 const Invite_Page = () => {
@@ -82,7 +83,7 @@ const Invite_Page = () => {
         </div>
         <Maps/>
        </div>
-
+       <Contacts/>
     
        </div>
     </div>

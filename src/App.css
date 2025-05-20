@@ -381,13 +381,75 @@ width: 200px;
    color: black;
 }
 
+/* CONTACT US */
+.Contact-Container{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:  beige;
+}
+.Contact-Container h2{
+  font-size: 30px;
+}
+.Contact-Container img{
+  margin-top: -60px;
+  height: 180px;
+  width: 200px;
+} 
+.Contacts .Border img{
+  height: 200px;
+  width: 600px;
+}
+.Feed{
+  margin-top: -60px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Couples-Social-Media .facebook{
+  margin-top: 25px;
+  padding: 10px 30px;
+  border: 2px solid beige
+}
+.Couples-Social-Media .instagram{
+  margin-top: 12px;
+  padding: 10px 30px;
+  border: 2px solid beige
+}
+.Couples-Social-Media .Twitter{
+  margin-top: 12px;
+  padding: 10px 30px;
+  border: 2px solid beige
+}
+
+.Contacts img{
+  margin-top: 40px;
+  height: 200px;
+  width: 520px;
+}
+.button{
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px solid beige;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 /* Default styles (for large screens) are already in place */
 
 
 
 /* Tablets and Small Laptops (768px - 1024px) */
-@media (min-width:768px)and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
   .Entry_Container {
     padding: 50px;
     margin-top: -50px;
@@ -486,6 +548,10 @@ width: 200px;
 
   .Date_Time-Container{
     font-size: 30px;
+  }
+  .Contacts .Border img{
+    height: 200px;
+    width: 20px;
   }
 
 }
@@ -603,7 +669,13 @@ width: 200px;
     width: 90%;
     padding: 5px 15px;
   }
+  .Contacts .Border img{
+    height: 200px;
+    width: 800px;
+  }
+
 }
+
 
 /* Small Mobile Devices (max-width: 480px) */
 @media screen and (max-width: 480px) {
@@ -701,3 +773,111 @@ width: 200px;
     width: 300px;
   }
 }
+.Contacts .Border img{
+  height: 200px;
+  width: 600px;
+}
+
+
+/* Small Mobile Devices (max-width: 300px) */
+@media screen and (max-width: 300px) {
+  .Entry_Container {
+    padding: 20px;
+    margin-top: -30px;
+  }
+
+  .heading p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .heading h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .Border-Img img,
+  .img img {
+    height: 120px;
+  }
+
+  .Couples_Image img {
+    height: 250px;
+    width: 200px;
+  }
+  
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+    padding: 8px 25px;
+  }
+
+  .Invite-Card {
+  padding: 20px;
+   width: 100%;
+   overflow: hidden;
+  }
+
+  .Couple_name {
+    font-size: 18px;
+    padding-left: 100px;
+  }
+
+  .Bride-Image,
+  .Groom-Image {
+    margin-top: -30px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 30%;
+  }
+  .Bride-Text ,
+  .Groom-Text{
+    width: 100%;
+    max-width: 60%;
+  }
+
+  .Bride-Content,
+  .Groom-Content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Gallery {
+    column-count: 2;
+    padding: 0;
+  }
+  .pics img{
+    margin-top: -20px;
+    height: 200px;
+    width: 150px;
+
+  }
+
+  .divide {
+    width: 90%;
+    padding: 5px 10px;
+  }
+
+  .flower-1 img {
+    padding-left: 10px;
+  }
+  .Add-Location iframe{
+    height: 300px;
+    width: 300px;
+  }
+}
+.Contacts .Border img{
+  height: 200px;
+  width: 400px;
+}
+
+
