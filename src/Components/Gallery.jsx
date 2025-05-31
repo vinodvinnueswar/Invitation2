@@ -43,7 +43,8 @@ const Gallery = () => {
 
     <div className="Gallery-Container">
 
-        <div className="Gallery">
+        <div className="Gallery" data-aos="fade-up"
+     data-aos-duration="3000">
             {data.map((item ,index)=> {
               return(
                 <div className="pics" key={index}>
