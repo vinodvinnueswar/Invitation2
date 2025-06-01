@@ -4,12 +4,16 @@ import ReactPlayer from 'react-player'
 const Videos = () => {
   return (
     <div className="videos-Container">
-        <div className="video">
+        <div className="video" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+  
+          <ReactPlayer  className='react-player'
+             url='https://youtu.be/3oc_tM46RS0?si=Rh6EoEt2xQVZMP6B'
+             width='360px'
+             height="250px"
+
+            />
             
-             <iframe src="https://youtu.be/qHxxmWySb6c?si=aK9iHVBFHzVi975a" frameborder="0"></iframe>
-            {/* <ReactPlayer url={'https://youtu.be/qHxxmWySb6c?si=aK9iHVBFHzVi975a'} controls={true} /> */}
-           
-            {/* width={500} height={350} */}
         </div>
     </div>
   )

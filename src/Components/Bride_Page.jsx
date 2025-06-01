@@ -8,8 +8,11 @@ const Bride_Page = () => {
             <div className="Bride-Image" data-aos="flip-left">
                 <img src={Bride} alt="" />
                 <div className="Bride-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sed voluptatibus culpa vel, distinctio quo dolorem nisi ipsam ducimus molestias nostrum inventore maxime voluptate doloremque sint repellendus earum quibusdam aliquid?</p>
+                <p>💍 A Love Story Begins… 🌸
+
+Two hearts, one journey. Today, we promise to walk hand in hand, through every joy, every challenge, every beautiful moment life has to offer. Surrounded by love, family, and the blessings of our closest ones, we begin a new chapter — not just as partners, but as soulmates.</p>
                 </div>
+                
             </div>
             <div className="Bride-Text" data-aos="flip-right">
                <div className="Bride-Content">

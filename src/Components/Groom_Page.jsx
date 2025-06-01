@@ -5,10 +5,12 @@ const Groom_Page = () => {
   return (
     <div className="Groom-Container">
         <div className="Groom-Image" data-aos="flip-left">
-        <div className="Groom-content">
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus voluptatibus soluta sequi rem sapiente possimus dolores dignissimos corrupti! Repellat et sunt molestias laborum eveniet aut ducimus tempora praesentium fugit atque.</p>
-            </div>
         <img src={Groom} alt=""  />
+        <div className="Groom-content">
+       <p>💍 A Love Story Begins… 🌸
+
+Two hearts, one journey. Today, we promise to walk hand in hand, through every joy, every challenge, every beautiful moment life has to offer. Surrounded by love, family, and the blessings of our closest ones, we begin a new chapter — not just as partners, but as soulmates.</p>
+            </div>
        
         </div>
         <div className="Groom-Text" data-aos="flip-right">
