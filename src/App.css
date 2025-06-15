@@ -469,117 +469,39 @@ width: 200px;
 
 
 
-/* Default styles (for large screens) are already in place */
 
 
-
-/* Tablets and Small Laptops (768px - 1024px) */
-@media (min-width:768px) and (max-width: 1024px) {
-  .Entry_Container {
-    padding: 50px;
-    margin-top: -50px;
+/* Hide the entire app in landscape mode */
+@media screen and (orientation: landscape) {
+  #root {
+    display: none;
   }
 
-  .heading p {
-    font-size: 18px;
-    padding-left: 50px;
+  .landscape-warning {
+    display: block;
+    color: #2A7B9B;
   }
-
-  .heading h2 {
-    font-size: 40px;
-  }
-
-  .Couples_Image img {
-    height: 400px;
-    width: 300px;
-  }
-
-  .buttons {
-    margin-top: -100px;
-  }
-
-  .Invite-Card {
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 100%;
-  }
-  .title h2{
-    font-size: 45px;
-    padding-left: 40px;
-  }
-  .Couples_image img{
-    margin-top: 40px;
-    height: 500px;
-    width: 400px;
-  }
-  .Couple_name  {
-    font-size: 45px;
-     text-align: center;
-  }
-  .divide {
-    margin-top: 25px;
-    height: 60px;
-    width: 900px;
-    font-size: 25px;
-  }
-  .Bride-Container ,
-  .Groom-Container{
-    width: 100%;
-    max-width: 75%;
-  }
-  .Bride-Image,
-  .Groom-Image {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  .Bride-Text,
-  .Groom-Text{
-    width: 100%;
-    max-width: 85%;
-  }
-
-  .Bride-Content,
-  .Groom-Content {
-    padding-right: 0;
-    text-align: center;
-  }
-  .Gallery {
-    margin-top: -450px;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-     -webkit-column-width:20% ;
-     -moz-column-width: 13%;
-    column-width: 13%;
-    padding: 0 12px;
-  }
-  .Gold-mandal img{
-    margin-top: 10px;
-    height: 250px;
-    padding-left: 900px;
-  }
-  .Gold-mandal-left img{
-    margin-top: -20px;
-    height: 230px;
-    padding-right: 900px;
-  }
-  .pics img{
-    height: 300px;
-    width: 230px;
-  }
-
-
-  .Date_Time-Container{
-    font-size: 30px;
-  }
-  .Contacts .Border img{
-    height: 200px;
-    width: 20px;
-  }
-
 }
+
+@media screen and (orientation: portrait) {
+  .landscape-warning {
+    display: none;
+    color: #2A7B9B;
+  }
+}
+
+/* Hide the entire app in landscape mode */
+@media screen and (min-width:768px) {
+  #root {
+    display: none;
+   background-color: #2A7B9B;
+  }
+
+  .landscape-warning {
+    display: block;
+  }
+}
+
 
 /* Mobile Devices (max-width: 768px) */
 @media (min-width:480px) and (max-width: 768px) {
